@@ -51,12 +51,17 @@ The Weather API provides detailed weather data collected from various sensors. T
 - Spring Boot 2.5+
 
 ### Running Locally
+
+mvn clean install -DskipTests
+
 Clone the repository and navigate to the project directory:
+
 ```
 git clone https://github.com/diegocardosodemelo/weatherapi.git
 cd weatherapi
 ```
 To run the application, execute:
+
 ```
 ./mvn spring-boot:run
 ```
