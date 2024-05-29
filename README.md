@@ -52,7 +52,9 @@ The Weather API provides detailed weather data collected from various sensors. T
 
 ### Running Locally
 
+```
 mvn clean install -DskipTests
+```
 
 Clone the repository and navigate to the project directory:
 
@@ -68,6 +70,7 @@ To run the application, execute:
 
 ### Tests
 Run tests using:
+
 ```
 ./mvn test
 ```
@@ -78,9 +81,11 @@ Describe how to deploy the application to a live system, mentioning any prerequi
 ## Examples of API Access using Curl
 
 Fetch the average temperature and humidity from sensor 1 for the last week:
-```bash
+
+```
 curl -X GET "http://localhost:8080/api/metrics/stats?sensorId=1&metric=temperature&stat=average&start=2024-05-22&end=2024-05-29"
 ```
 
 This README provides a good foundation, detailing essential information users need to effectively utilize the API. You can add more sections as necessary, such as 'Configuration', 'Advanced Usage', or 'Contributing'.
+
 ```
